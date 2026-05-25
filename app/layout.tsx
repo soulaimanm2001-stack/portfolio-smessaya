@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Soulaiman • Automatisation & IA",
-  description: "Portfolio automatisation et intelligence artificielle",
+  description: "Portfolio automatisation et IA",
 };
 
 export default function RootLayout({
@@ -12,9 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className="bg-black text-white">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
